@@ -13,6 +13,7 @@ const SignUp = () => {
     const handleSubmit = (e: any) => {
         e.preventDefault();
         const { email, password } = e.target.elements;
+        console.log("email==>",email,password)
     }
     return (
         <Container component="main" maxWidth="sm">
